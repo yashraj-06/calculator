@@ -1,0 +1,70 @@
+body{
+  font-family: 'open sans' ,sans-serif;
+  background-color: black;
+}
+#container{
+  width: 1000px;
+  height: 615px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.5)), url(yash.jpg);
+  margin:  20px auto;
+}
+#Calculator{
+  width: 350px;
+  height: 560px;
+  background-color: orange;
+  margin: 0px auto;
+  position: relative;
+  top: 20px;
+  border-radius: 5px;
+
+}
+#result{
+height: 120px;
+}
+#key{
+  height: 400px;
+}
+#history{
+  text-align: right;
+  height: 20px;
+  margin: 0 20px;
+  padding-top: 20px;
+  font-size: 17px;
+  color: red;
+}
+#output{
+  text-align: right;
+  height: 60px;
+  margin: 10px 20px;
+
+  font-size: 20px;
+}
+.operator, .number, .empty{
+width: 50px;
+height: 50px;
+margin: 18px;
+float: right;
+border-radius: 30%;
+font-size: 17px;
+font-weight: bold;
+}
+.number, .operator{
+  cursor: pointer;
+}
+button:nth-child(4){
+  font-size: 20px;
+  background-color: Green;
+}
+button:nth-child(8){
+  font-size: 20px;
+  background-color: yellow;
+}button:nth-child(12){
+  font-size: 20px;
+  background-color: red;
+}button:nth-child(16){
+  font-size: 20px;
+  background-color: aqua;
+}button:nth-child(20){
+  font-size: 20 px;
+  background-color: orange;
+}
